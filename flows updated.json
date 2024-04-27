@@ -1,0 +1,2602 @@
+[
+    {
+        "id": "45234283bb5a076b",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0267beee1740edc1",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6fda68b2a7251027",
+        "type": "ui_tab",
+        "name": "Proyecto",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "22d26b8607933dbb",
+        "type": "ui_tab",
+        "name": "Estacionamientos AB",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "72a6bd482ff7feaa",
+        "type": "ui_tab",
+        "name": "Estacionamientos CD",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dabcf2e36b70c2eb",
+        "type": "ui_tab",
+        "name": "Proyecto",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a3052ac143bbd1cd",
+        "type": "ui_tab",
+        "name": "Estacionamientos AB",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9e48cfce78cdc024",
+        "type": "ui_tab",
+        "name": "Estacionamientos CD",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8ae05f8ed105146c",
+        "type": "ui_group",
+        "name": "Estacionamiento C",
+        "tab": "6fda68b2a7251027",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b24fd902b35b8349",
+        "type": "ui_group",
+        "name": "Estacionamiento B",
+        "tab": "6fda68b2a7251027",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9c64571d2ffc5635",
+        "type": "ui_group",
+        "name": "Estacionamiento D",
+        "tab": "6fda68b2a7251027",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "79f7c0801908d1dd",
+        "type": "ui_group",
+        "name": "Estacionamiento Cantidad",
+        "tab": "6fda68b2a7251027",
+        "order": 5,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1f36507522af6fa9",
+        "type": "ui_group",
+        "name": "Estacionamientos A",
+        "tab": "22d26b8607933dbb",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3b13f492c4a7a8a5",
+        "type": "ui_group",
+        "name": "Estacionamiento B",
+        "tab": "22d26b8607933dbb",
+        "order": 2,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "124ccbdad4e32a2b",
+        "type": "ui_group",
+        "name": "Estacionamiento C",
+        "tab": "72a6bd482ff7feaa",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cbd599ea1d20519f",
+        "type": "ui_group",
+        "name": "Estacionamiento D",
+        "tab": "72a6bd482ff7feaa",
+        "order": 2,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1a3dd8a2673f918d",
+        "type": "ui_group",
+        "name": "Estacionamiento  A",
+        "tab": "6fda68b2a7251027",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "842fa61ae162a48d",
+        "type": "ui_group",
+        "name": "Estacionamiento C",
+        "tab": "6fda68b2a7251027",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ae6f5586bccf32c5",
+        "type": "ui_group",
+        "name": "Estacionamiento B",
+        "tab": "6fda68b2a7251027",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "93768253ad085a33",
+        "type": "ui_group",
+        "name": "Estacionamiento D",
+        "tab": "6fda68b2a7251027",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4f698a7421f83633",
+        "type": "ui_group",
+        "name": "Estacionamiento Cantidad",
+        "tab": "6fda68b2a7251027",
+        "order": 5,
+        "disp": true,
+        "width": "27",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cf0304df359736e4",
+        "type": "ui_group",
+        "name": "Estacionamientos A",
+        "tab": "22d26b8607933dbb",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7d45c30a3967b971",
+        "type": "ui_group",
+        "name": "Estacionamiento B",
+        "tab": "22d26b8607933dbb",
+        "order": 2,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5d255749d8856cd1",
+        "type": "ui_group",
+        "name": "Estacionamiento C",
+        "tab": "72a6bd482ff7feaa",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9de1d3d1604b4ae8",
+        "type": "ui_group",
+        "name": "Estacionamiento D",
+        "tab": "72a6bd482ff7feaa",
+        "order": 2,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "375bd479bcacf297",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#a80000",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#a80000",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#a80000",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#a80000",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial Black,Arial Black,Gadget,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e52b36190713e8a2",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "6iwv5tpuergfhwdviyyx4cfznficz73g832jje7n3e5hylwi28isas4p5nrbao9m",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "7effe3247e37bfde",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "6iwv5tpuergfhwdviyyx4cfznficz73g832jje7n3e5hylwi28isas4p5nrbao9m",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "3597854aea0bb61d",
+        "type": "ui_group",
+        "name": "Estacionamiento A",
+        "tab": "6fda68b2a7251027",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2f1d7f7c5dee0315",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3597854aea0bb61d",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b0726ec173db1981",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3597854aea0bb61d",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "85ed37515dcc15b1",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3597854aea0bb61d",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "312bcfe19515c8df",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3597854aea0bb61d",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c76a0398d82fec5b",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3597854aea0bb61d",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b1254493ce01d3b5",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3597854aea0bb61d",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e1f78beb915dbb4a",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "b24fd902b35b8349",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "058e4d7258c7d24a",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "b24fd902b35b8349",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1f5390f317beec66",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "b24fd902b35b8349",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b70c35bed983201f",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "b24fd902b35b8349",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "43f112a7034d6efc",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "b24fd902b35b8349",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e6c340ecec2c54b4",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "b24fd902b35b8349",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "91206efe0c97055e",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "8ae05f8ed105146c",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3b24f78df4500ad9",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "8ae05f8ed105146c",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d13d9b356df39fac",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "8ae05f8ed105146c",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "dd1eb616f0206192",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "8ae05f8ed105146c",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3a27dee6efc02ea3",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "8ae05f8ed105146c",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6f7dd515fb7eb00a",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "8ae05f8ed105146c",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "88e6b8c40b19f995",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "9c64571d2ffc5635",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2c01827fecb785e7",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "9c64571d2ffc5635",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7b834a99ecb13f81",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "9c64571d2ffc5635",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6ea8b0ab7dcc8f50",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "9c64571d2ffc5635",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2f9ae013477ce651",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "9c64571d2ffc5635",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bf302a5c864aa37c",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "9c64571d2ffc5635",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "539e6cf6e6e0a523",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "1f36507522af6fa9",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "67992c4ef03275d2",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "1f36507522af6fa9",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "db71ecbcc6f5d663",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "1f36507522af6fa9",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6e60173bccf6a3ed",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "1f36507522af6fa9",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dabb8b2f86c5c53c",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3b13f492c4a7a8a5",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1115fb632fcd0d2e",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3b13f492c4a7a8a5",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8bb7d995c6d14111",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3b13f492c4a7a8a5",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0245e0501e2b4fba",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "3b13f492c4a7a8a5",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "31f56dc32c2a22b2",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "t3z9u2qqnft54xm569o551pintaoohkulb28nw4fgs671511y4lyujb829z36b5g",
+        "server": "nodered04.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "70725d9db38d754c",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "124ccbdad4e32a2b",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4c0c8dd01689dd44",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "124ccbdad4e32a2b",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f27db12608fb4fab",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "124ccbdad4e32a2b",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "78b9d1eee33e1b9e",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "124ccbdad4e32a2b",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "552c56e836cb92f7",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "cbd599ea1d20519f",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "593dfae0c1edb3d3",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "cbd599ea1d20519f",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "84b33d16b053fe30",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "cbd599ea1d20519f",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3d336ee875d282f5",
+        "type": "ui_spacer",
+        "z": "45234283bb5a076b",
+        "name": "spacer",
+        "group": "cbd599ea1d20519f",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "17c4be458bb1532f",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 3,
+        "group": "3597854aea0bb61d",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a1c8b89f9f236ff2",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 7,
+        "group": "3597854aea0bb61d",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "6407f789cc57943e",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 11,
+        "group": "3597854aea0bb61d",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "da1e31dfb6281264",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 23",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar carril1 = { payload: false };\nvar carril2 = { payload: false };\nvar carril3 = { payload: false };\n\n// Verificar el estado de los sensores y asignar valores booleanos\nif (msg.sensor1 === 1) {\n    carril1.payload = false;\n}\nelse{\n    carril1.payload = true;\n}\n\nif (msg.sensor2 === 1) {\n    carril2.payload = false;\n}\nelse{\n    carril2.payload = true;\n}\n\nif (msg.sensor3 === 1) {\n    carril3.payload = false;\n}\nelse{\n    carril3.payload = true;\n}\n\n// Retornar un array con los mensajes de los sensores\nreturn [carril1, carril2, carril3];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 520,
+        "wires": [
+            [
+                "17c4be458bb1532f",
+                "2f0dcdfa0f0bfd07"
+            ],
+            [
+                "a1c8b89f9f236ff2",
+                "31b4919a919f654a",
+                "9bd84a1075551515"
+            ],
+            [
+                "6407f789cc57943e",
+                "c16a704fe9601c2e"
+            ]
+        ]
+    },
+    {
+        "id": "847d29931b6bd72c",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 24",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar dispcarril1 = { payload: \"Libre\" };\nvar dispcarril2 = { payload: \"Libre\" };\nvar dispcarril3 = { payload: \"Libre\" };\n\n// Verificar el estado de los sensores y asignar mensajes de texto\nif (msg.sensor1 == 1) {\n    dispcarril1.payload = \"Ocupado\";\n}\n\nif (msg.sensor2 == 1) {\n    dispcarril2.payload = \"Ocupado\";\n}\n\nif (msg.sensor3 == 1) {\n    dispcarril3.payload = \"Ocupado\";\n}\n\n// Retornar un array con los mensajes de texto\nreturn [dispcarril1, dispcarril2, dispcarril3];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 820,
+        "wires": [
+            [
+                "e2a3637b73dd5dae",
+                "8bb026234e4e25d1",
+                "0c5eac04fb087dc7"
+            ],
+            [
+                "427c852e9e6de6e6",
+                "9a58c03baca60edf"
+            ],
+            [
+                "7d3f0dae1bac8629"
+            ]
+        ]
+    },
+    {
+        "id": "e2a3637b73dd5dae",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "3597854aea0bb61d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 1:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "427c852e9e6de6e6",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "3597854aea0bb61d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 2:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "7d3f0dae1bac8629",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "3597854aea0bb61d",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 3:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "438531c1314e02ce",
+        "type": "mqtt in",
+        "z": "45234283bb5a076b",
+        "name": "",
+        "topic": "/grup/sensores/Llave",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0267beee1740edc1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 700,
+        "wires": [
+            [
+                "da1e31dfb6281264",
+                "847d29931b6bd72c",
+                "e301060c56d821a7"
+            ]
+        ]
+    },
+    {
+        "id": "0daa92cbfe7fd59c",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 3,
+        "group": "8ae05f8ed105146c",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "9099dfcc113c0101",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 7,
+        "group": "8ae05f8ed105146c",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "8e3772df7546b2a8",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 11,
+        "group": "8ae05f8ed105146c",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "41cea270ef587d4e",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 25",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar carril7 = { payload: false };\nvar carril8 = { payload: false };\nvar carril9 = { payload: false };\n\n// Verificar el estado de los sensores y asignar valores booleanos\nif (msg.sensor7 === 1) {\n    carril7.payload = false;\n}\nelse{\n    carril7.payload = true;\n}\n\nif (msg.sensor8 === 1) {\n    carril8.payload = false;\n}\nelse{\n    carril8.payload = true;\n}\n\nif (msg.sensor9 === 1) {\n    carril9.payload = false;\n}\nelse{\n    carril9.payload = true;\n}\n\n// Retornar un array con los mensajes de los sensores\nreturn [carril7, carril8, carril9];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1540,
+        "wires": [
+            [
+                "0daa92cbfe7fd59c",
+                "7781f37277e97777"
+            ],
+            [
+                "9099dfcc113c0101",
+                "66a0c41bb811c485",
+                "53afdccd31e58f93"
+            ],
+            [
+                "8e3772df7546b2a8",
+                "b831ecddcf422db8"
+            ]
+        ]
+    },
+    {
+        "id": "124c1618b114aab8",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 26",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar dispcarril7 = { payload: \"Libre\" };\nvar dispcarril8 = { payload: \"Libre\" };\nvar dispcarril9 = { payload: \"Libre\" };\n\n// Verificar el estado de los sensores y asignar mensajes de texto\nif (msg.sensor7 == 1) {\n    dispcarril7.payload = \"Ocupado\";\n}\n\nif (msg.sensor8 == 1) {\n    dispcarril8.payload = \"Ocupado\";\n}\n\nif (msg.sensor9 == 1) {\n    dispcarril9.payload = \"Ocupado\";\n}\n\n// Retornar un array con los mensajes de texto\nreturn [dispcarril7, dispcarril8, dispcarril9];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1940,
+        "wires": [
+            [
+                "125fd6a0fc58320b",
+                "372830d1b68d9112"
+            ],
+            [
+                "64d74a99929c7a93",
+                "a3eeea0d481b8f87"
+            ],
+            [
+                "5f3f660ce9768215",
+                "b60a98c0efc24066"
+            ]
+        ]
+    },
+    {
+        "id": "125fd6a0fc58320b",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "8ae05f8ed105146c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 7:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "64d74a99929c7a93",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "8ae05f8ed105146c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 8:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "5f3f660ce9768215",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "8ae05f8ed105146c",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 9:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "a01c6329e991ed47",
+        "type": "mqtt in",
+        "z": "45234283bb5a076b",
+        "name": "",
+        "topic": "/grup/sensores/Romay",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0267beee1740edc1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 1760,
+        "wires": [
+            [
+                "41cea270ef587d4e",
+                "124c1618b114aab8",
+                "ac309dadede5d4d0"
+            ]
+        ]
+    },
+    {
+        "id": "24e7bd5d2cd9d197",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 3,
+        "group": "b24fd902b35b8349",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 2410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "469fb46a405638bd",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 7,
+        "group": "b24fd902b35b8349",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 2410,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e962ac7e327a4a0c",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 11,
+        "group": "b24fd902b35b8349",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 2410,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "9283d358949f9f53",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 27",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar carril4 = { payload: false };\nvar carril5 = { payload: false };\nvar carril6 = { payload: false };\n\n// Verificar el estado de los sensores y asignar valores booleanos\nif (msg.sensor4 === 1) {\n    carril4.payload = false;\n}\nelse{\n    carril4.payload = true;\n}\n\nif (msg.sensor5 === 1) {\n    carril5.payload = false;\n}\nelse{\n    carril5.payload = true;\n}\n\nif (msg.sensor6 === 1) {\n    carril6.payload = false;\n}\nelse{\n    carril6.payload = true;\n}\n\n// Retornar un array con los mensajes de los sensores\nreturn [carril4, carril5, carril6];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 360,
+        "wires": [
+            [
+                "24e7bd5d2cd9d197",
+                "c54cd5b56cc21280"
+            ],
+            [
+                "469fb46a405638bd",
+                "c3398a92d0ac65cf",
+                "dc9c782889c4c113"
+            ],
+            [
+                "e962ac7e327a4a0c",
+                "8429cd1dc25da808"
+            ]
+        ]
+    },
+    {
+        "id": "a564460e9963e6a1",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 28",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar dispcarril4 = { payload: \"Libre\" };\nvar dispcarril5 = { payload: \"Libre\" };\nvar dispcarril6 = { payload: \"Libre\" };\n\n// Verificar el estado de los sensores y asignar mensajes de texto\nif (msg.sensor4 == 1) {\n    dispcarril4.payload = \"Ocupado\";\n}\n\nif (msg.sensor5 == 1) {\n    dispcarril5.payload = \"Ocupado\";\n}\n\nif (msg.sensor6 == 1) {\n    dispcarril6.payload = \"Ocupado\";\n}\n\n// Retornar un array con los mensajes de texto\nreturn [dispcarril4, dispcarril5, dispcarril6];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 660,
+        "wires": [
+            [
+                "d52836d4ba07d47b",
+                "0f415a2548ccc2a1"
+            ],
+            [
+                "9e65571b7095242c",
+                "7816f22d625f5492"
+            ],
+            [
+                "3b41834bee53d501",
+                "1729e40c2e1f65c7"
+            ]
+        ]
+    },
+    {
+        "id": "d52836d4ba07d47b",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "b24fd902b35b8349",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 4:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "9e65571b7095242c",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "b24fd902b35b8349",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 5:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "3b41834bee53d501",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "b24fd902b35b8349",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 6:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "d16a45f57e4feb3f",
+        "type": "mqtt in",
+        "z": "45234283bb5a076b",
+        "name": "",
+        "topic": "/grup/sensores/Gonzales",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0267beee1740edc1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1890,
+        "y": 540,
+        "wires": [
+            [
+                "9283d358949f9f53",
+                "a564460e9963e6a1",
+                "92daf3ced3cdba5a"
+            ]
+        ]
+    },
+    {
+        "id": "af66c464126c4fd6",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 3,
+        "group": "9c64571d2ffc5635",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 2410,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "fe545b96e1c3f269",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 7,
+        "group": "9c64571d2ffc5635",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 2410,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "ee5fd169997ac05a",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 11,
+        "group": "9c64571d2ffc5635",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 2410,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "a2a88f7b2306b98f",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 29",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar carril10 = { payload: false };\nvar carril11 = { payload: false };\nvar carril12 = { payload: false };\n\n// Verificar el estado de los sensores y asignar valores booleanos\nif (msg.sensor10 === 1) {\n    carril10.payload = false;\n}\nelse{\n    carril10.payload = true;\n}\n\nif (msg.sensor11 === 1) {\n    carril11.payload = false;\n}\nelse{\n    carril11.payload = true;\n}\n\nif (msg.sensor12 === 1) {\n    carril12.payload = false;\n}\nelse{\n    carril12.payload = true;\n}\n\n// Retornar un array con los mensajes de los sensores\nreturn [carril10, carril11, carril12];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 1500,
+        "wires": [
+            [
+                "af66c464126c4fd6",
+                "20d40bd5ce7aad8b"
+            ],
+            [
+                "fe545b96e1c3f269",
+                "e5aed8e5d46b780e",
+                "8e9fe1b9939ac6ef"
+            ],
+            [
+                "ee5fd169997ac05a",
+                "5914ec6eb71b2764"
+            ]
+        ]
+    },
+    {
+        "id": "bfd9489fdd3701fc",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 30",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializar los mensajes\nvar dispcarril10 = { payload: \"Libre\" };\nvar dispcarril11 = { payload: \"Libre\" };\nvar dispcarril12 = { payload: \"Libre\" };\n\n// Verificar el estado de los sensores y asignar mensajes de texto\nif (msg.sensor10 == 1) {\n    dispcarril10.payload = \"Ocupado\";\n}\n\nif (msg.sensor11 == 1) {\n    dispcarril11.payload = \"Ocupado\";\n}\n\nif (msg.sensor12 == 1) {\n    dispcarril12.payload = \"Ocupado\";\n}\n\n// Retornar un array con los mensajes de texto\nreturn [dispcarril10, dispcarril11, dispcarril12];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 1980,
+        "wires": [
+            [
+                "1d280972d952e2b2",
+                "2cab5890cae4ef50"
+            ],
+            [
+                "20b14bca201cf5cd",
+                "653a093d2ae3a336"
+            ],
+            [
+                "12ec2ebc81114c50",
+                "2ef2df676c8fbb29"
+            ]
+        ]
+    },
+    {
+        "id": "1d280972d952e2b2",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "9c64571d2ffc5635",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 10:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "20b14bca201cf5cd",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "9c64571d2ffc5635",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 11:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "12ec2ebc81114c50",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "9c64571d2ffc5635",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carril 12:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "d1c11e0b0f096a3a",
+        "type": "mqtt in",
+        "z": "45234283bb5a076b",
+        "name": "",
+        "topic": "/grup/sensores/Morales",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0267beee1740edc1",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1860,
+        "y": 1740,
+        "wires": [
+            [
+                "a2a88f7b2306b98f",
+                "bfd9489fdd3701fc",
+                "8347b791f4308d4d"
+            ]
+        ]
+    },
+    {
+        "id": "e301060c56d821a7",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 31",
+        "func": "// Lee el mensaje recibido desde el nodo Inject\nvar msg = msg.payload;\n\n// Inicializa el contador si no está definido\nvar contador = context.get('contador') || 0;\n\n// Verifica el estado del sensor1 y actualiza el contador\nif (msg.sensor1 == 1) {\n    contador++;\n} else {\n    contador = Math.max(0, contador - 1);\n}\n\n// Almacena el nuevo valor del contador en el contexto\ncontext.set('contador', contador);\n\nif (msg.sensor2 == 1) {\n    contador++;\n} else {\n    contador = Math.max(0, contador - 1);\n}\n\n\n// Almacena el nuevo valor del contador en el contexto\ncontext.set('contador', contador);\n\nif (msg.sensor3 == 1) {\n    contador++;\n} else {\n    contador = Math.max(0, contador - 1);\n}\n\n\n// Almacena el nuevo valor del contador en el contexto\ncontext.set('contador', contador);\n\n\n\n// Crea un nuevo objeto 'cuentador' que contiene el valor actualizado del contador\nvar cuentador = { payload: contador };\n\n// Retorna el objeto 'cuentador' que será enviado al siguiente nodo en el flujo\nreturn cuentador;\n\n\n\n/*// Verifica el estado del sensor2 y actualiza el contador\nif (msg.sensor2 == 1) {\n    contador++;\n} else {\n    contador = Math.max(0, contador - 1);\n}\n\n// Verifica el estado del sensor3 y actualiza el contador\nif (msg.sensor3 == 1) {\n    contador++;\n} else {\n    contador = Math.max(0, contador - 1);\n}\n*/",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92daf3ced3cdba5a",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 32",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8347b791f4308d4d",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 33",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac309dadede5d4d0",
+        "type": "function",
+        "z": "45234283bb5a076b",
+        "name": "function 34",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31b4919a919f654a",
+        "type": "ui_gauge",
+        "z": "45234283bb5a076b",
+        "name": "Estacionamiento Llave",
+        "group": "79f7c0801908d1dd",
+        "order": 1,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Estacionamiento Llave",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1080,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "c3398a92d0ac65cf",
+        "type": "ui_gauge",
+        "z": "45234283bb5a076b",
+        "name": "Estacionamiento Gonzales",
+        "group": "79f7c0801908d1dd",
+        "order": 2,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Estacionamiento Gonzales",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2740,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e5aed8e5d46b780e",
+        "type": "ui_gauge",
+        "z": "45234283bb5a076b",
+        "name": "Estacionamiento Morales",
+        "group": "79f7c0801908d1dd",
+        "order": 3,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Estacionamiento Morales",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2550,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "66a0c41bb811c485",
+        "type": "ui_gauge",
+        "z": "45234283bb5a076b",
+        "name": "Estacionamiento Romay",
+        "group": "79f7c0801908d1dd",
+        "order": 4,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Estacionamiento Romay",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "3",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "9bd84a1075551515",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 6,
+        "group": "1f36507522af6fa9",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 1",
+        "x": 830,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "c16a704fe9601c2e",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 8,
+        "group": "1f36507522af6fa9",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 2",
+        "x": 830,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "2f0dcdfa0f0bfd07",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 10,
+        "group": "1f36507522af6fa9",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 3",
+        "x": 830,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "8bb026234e4e25d1",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "1f36507522af6fa9",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 1:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "9a58c03baca60edf",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "1f36507522af6fa9",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 2:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "0c5eac04fb087dc7",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "1f36507522af6fa9",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 3:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "c54cd5b56cc21280",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 6,
+        "group": "3b13f492c4a7a8a5",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 1",
+        "x": 2410,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "dc9c782889c4c113",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 8,
+        "group": "3b13f492c4a7a8a5",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 2",
+        "x": 2410,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8429cd1dc25da808",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 10,
+        "group": "3b13f492c4a7a8a5",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 3",
+        "x": 2410,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "0f415a2548ccc2a1",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "3b13f492c4a7a8a5",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 4:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "7816f22d625f5492",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "3b13f492c4a7a8a5",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 5:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "1729e40c2e1f65c7",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "3b13f492c4a7a8a5",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 6:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "7781f37277e97777",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 8,
+        "group": "124ccbdad4e32a2b",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 1",
+        "x": 830,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "53afdccd31e58f93",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 10,
+        "group": "124ccbdad4e32a2b",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 2",
+        "x": 830,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "b831ecddcf422db8",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 6,
+        "group": "124ccbdad4e32a2b",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 3",
+        "x": 830,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "372830d1b68d9112",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "124ccbdad4e32a2b",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 7:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "a3eeea0d481b8f87",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "124ccbdad4e32a2b",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 8:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "b60a98c0efc24066",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "124ccbdad4e32a2b",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 9:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "20d40bd5ce7aad8b",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 6,
+        "group": "cbd599ea1d20519f",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 1",
+        "x": 2410,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "8e9fe1b9939ac6ef",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 8,
+        "group": "cbd599ea1d20519f",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 2",
+        "x": 2410,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "5914ec6eb71b2764",
+        "type": "ui_led",
+        "z": "45234283bb5a076b",
+        "order": 10,
+        "group": "cbd599ea1d20519f",
+        "width": 4,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "led 3",
+        "x": 2410,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "2cab5890cae4ef50",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "cbd599ea1d20519f",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 10:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "653a093d2ae3a336",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "cbd599ea1d20519f",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 11:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "2ef2df676c8fbb29",
+        "type": "ui_text",
+        "z": "45234283bb5a076b",
+        "group": "cbd599ea1d20519f",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Carril 12:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2420,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "3ad0cc51cf2017d2",
+        "type": "remote-access",
+        "z": "45234283bb5a076b",
+        "confignode": "31f56dc32c2a22b2",
+        "name": "remote-access",
+        "verbose": true,
+        "x": 1480,
+        "y": 220,
+        "wires": [
+            [],
+            []
+        ]
+    }
+]
